@@ -1,0 +1,902 @@
+body.learn,body.home{display:none;flex-direction:column;background-color:#fff;font-family:LSEG Motto,Helvetica Neue,Arial}
+body.manager{display:block}
+.container{min-height:500px;height:auto}
+.manager .global-site-header{display:none}
+.manager .sidebar__container--open .sidebar__nav a:visited{color:rgb(183 203 218/var(--tw-text-opacity))}
+.manager a.text-manager-shade-50{color:var(--manager-shade-50,#ebf1fe) !important}
+.container .header .header__inner .company__beta-logo .company-logo__container img{max-width:100%}
+body.home.register .container .header .top-bar .top-bar-section,body.home.register .container .header .header__inner .nav--top{display:none}
+body.home.register .container .home__content .widget--registration-form_standard a.btn:visited{color:#fff}
+.global-site-footer{margin-top:auto}
+.footer{display:none}
+.kaltura-video-item .kaltura-player-container .kaltura-outer{display:inline-block;height:auto;position:relative;width:100%}
+.kaltura-video-item .kaltura-player-container .kaltura-outer .kaltura-inner{margin-top:56.25%;display:inline-block}
+body.learn .Figure .Figure-inner{display:flex}
+body.learn.manager .Figure .Figure-inner .Figure-expandable,body.learn .Figure .Figure-inner .Figure-expandable{display:none}
+body.learn .Figure .Figure-inner .Figure-expandable:hover{background-color:#666;border:0;color:#fff}
+body.learn .Figure .Figure-inner .Figure-expandable:focus{outline:5px auto -webkit-focus-ring-color !important}
+.expandable-image-modal-container{z-index:99999}
+.manager .global-site-header{display:none}
+.header-back-link-container{background-color:#001eff;height:50px}
+.header-back-link-container .header-back-link{width:100%;padding:12px 20px 12px 20px}
+.header-back-link-container a{color:#fff}
+.header-back-link-container .header-back-link{padding:13px 16px 13px 16px}
+.header-back-link-container .header-back-link .row{display:none}
+.header-back-link-container .header-back-link .widget__cta{padding:0;display:inline-flex}
+.header-back-link-container .header-back-link .btn{padding:0;margin:0;background:unset;border:0;font-size:15px}
+.header-back-link .header-back-link-icon{color:#fff}
+.header-back-link .header-back-link-text{color:#fff;padding-left:8px;font-size:15px;line-height:24px;font-weight:700}
+.container .header{height:100%;padding:8px 0 0 0;display:flex;flex-direction:row;justify-content:center;width:100%;border-bottom:1px solid #ccc}
+.container .header .header__inner{padding:0;margin:0;height:auto;width:100%;display:flex;align-items:center}
+.container .header .header__inner .company-logo__container{padding:0}
+.container .header .header__inner .company__beta-logo{padding:0;display:flex;order:1}
+.container .header .header__inner .company__school-name{color:#4d4d4d;font-size:12px;font-weight:600;letter-spacing:1px;line-height:20px;margin:0 auto;display:flex;vertical-align:middle;margin-top:0;padding-left:0;text-align:left;white-space:nowrap;width:100%;order:3}
+.container .header .header__inner .company__school-name__divider{display:flex;height:46px;width:1px;line-height:30px;border-left:1px solid #b2b2b2;order:2;margin-bottom:0}
+.container .header .header__inner .nav--top{margin-left:auto;order:4;display:flex}
+.container .header .header__inner .row{height:100%}
+.container .header .header__inner .row .columns{display:flex;flex-direction:row;align-items:center;height:100%}
+.article .bg-accent,.course .course__container .bg-accent{display:none}
+@media(min-width:1200px){.header-back-link-container .header-back-link,.container .header .header__inner{padding:0 !important}
+}
+@media(min-width:768px){.header-back-link-container{display:flex;justify-content:center;overflow:auto;width:100%}
+.header-back-link-container .header-back-link{width:1280px;display:flex;padding:0 16px;align-items:center}
+.container .header{height:78px;padding:8px 0 8px 0}
+.container .header .header__inner{width:1280px;padding:0 16px}
+.container .header .header__inner .row .columns{padding:0}
+.container .header .header__inner .company__school-name__divider{display:block}
+}
+@media(max-width:480px){.container .header .header__inner{align-items:flex-start;flex-direction:column;height:auto;justify-content:flex-start;padding:0}
+.container .header .header__inner .company__beta-logo{padding:0 16px;margin-bottom:8px}
+.container .header .header__inner .company__school-name__divider{display:none}
+.container .header .header__inner .company__school-name{background:#e6e6e6;padding:0 16px 0 16px;text-align:left;width:100%}
+.container .header .header__inner .row .columns{align-items:flex-start;flex-direction:column;height:auto;justify-content:flex-start;padding:0}
+.container .header .header__inner .nav--top{margin-left:0;padding:6px 16px}
+}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .topic__text__body .editor-content li,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .topic__text__body .editor-content p{font-style:normal;font-weight:400;font-size:21px;line-height:32px;color:#4d4d4d;letter-spacing:0;text-align:left}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .topic__text__body .editor-content p strong{font-style:normal;font-weight:700;font-size:15px;line-height:24px;color:#4d4d4d}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .topic__text__body .editor-content p br{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .editor-content ul,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .topic__text__body .editor-content ul{list-style:disc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content::before{margin-top:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content{background:#fff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text{padding:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text li,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text p span,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .editor-content p{color:#4d4d4d;font-size:19px;font-style:normal;font-weight:400;letter-spacing:0;line-height:32px;text-align:left}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .editor-content p strong{color:#4d4d4d;font-size:21px;font-weight:700;letter-spacing:0;line-height:32px;text-align:left}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .quiz-start__sub-text{margin:32px 0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .quiz-start__sub-text p{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .quiz-start__sub-text p span{margin-left:0;font-style:normal;font-weight:700;font-size:15px;line-height:24px;color:#4d4d4d}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .quiz-start__sub-text .btn{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:8px 24px;height:48px;background:#ff5000;border-radius:5px;border:0;margin:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz-start .quiz-start__content .quiz-start__text .quiz-start__sub-text .btn span{font-style:normal;font-weight:700;font-size:19px;line-height:32px;text-align:center;color:#fff;text-transform:none}
+.quiz__overlay{background:rgba(0,0,0,0.5)}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content{padding:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container{padding:32px 32px 0 32px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container{background:#fff;padding:0 !important}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__timer{font-style:normal;font-weight:700;font-size:21px;line-height:32px;text-align:center;color:#001eff;border:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .question__body p{font-style:normal;font-weight:700;font-size:21px;line-height:32px;color:#333;margin-bottom:0;display:flex;align-items:center}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .question__body table{margin:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .question__body td{font-style:normal;font-weight:700;font-size:21px;line-height:32px;color:#333;margin-bottom:0;display:flex;align-items:center;padding:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list{margin-bottom:24px;margin-top:32px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple{padding-left:12px;display:flex;align-items:center;margin-bottom:12px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice{font-style:normal;font-weight:400;font-size:19px;line-height:32px;color:#333;display:flex;align-items:center;width:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice .choice__index{font-style:normal;font-weight:700;font-size:21px;line-height:32px;color:#001eff;margin-right:20px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice__review{width:0;white-space:nowrap}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .btn{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:8px 24px;height:48px;background:#ff5000;border-radius:5px;border:0;float:unset;margin:auto;margin-bottom:32px;width:fit-content !important}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .btn span{font-style:normal;font-weight:700;font-size:19px;line-height:32px;text-align:center;color:#fff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .topic__index,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic_custom_index{background:#fff;font-style:normal;font-weight:400;font-size:19px;line-height:32px;color:#333;height:32px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin-bottom:24px;display:flex;justify-content:center;align-items:center}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .topic__index,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic__index{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .topic__index--too-many{margin-top:0;display:flex}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic__index--too-many+.topic_custom_index{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content hr{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple:hover{border:2px solid #001eff;cursor:pointer}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected{border:2px solid #001eff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--true,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--false{flex-direction:column;align-items:flex-start}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--true .choice__review,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--false .choice__review{width:100%;white-space:nowrap}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .ember-view:first-of-type{display:flex;align-items:center;width:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container{margin-bottom:40px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats{display:flex;width:100%;border:0;margin-bottom:48px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-grade__container,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container{width:100%;max-width:100%;margin-top:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-grade__container .question-results__grade .panel{width:100%;text-align:left}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart{width:75%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-labels{width:25%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__title{display:block}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade{display:flex;margin-bottom:24px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade .columns{margin:0 !important;padding:0 !important;width:100%;display:flex}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade .columns .panel{margin:0;padding:0;border:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade .columns .panel span{font-size:21px;font-weight:400;line-height:32px;letter-spacing:0;text-align:left;color:#333;text-transform:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade .columns .panel .results__grade-percentage{font-size:21px;font-weight:700;line-height:32px;letter-spacing:0;text-align:left;color:#333;text-transform:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade .columns .panel .results__grade__status{padding:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .question-results__grade .columns .panel .results__grade__status span{font-size:28px;font-weight:700;line-height:36px;letter-spacing:0;text-align:left;color:#333;text-transform:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .quiz__start__grade p{margin-bottom:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-bars .chart-bar{width:22px;border-radius:0;margin:0 12px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-bars{height:205px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-bars .chart-bar--total{background-color:#001299}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-bars .chart-bar--answered{background-color:#0018cc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-bars .chart-bar--correct{background-color:#001eff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-bars .chart-bar--incorrect{background-color:#ccd2ff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-labels{border-top:1px solid #ccc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart .results__chart-labels .results__chart-label{margin:0 8px;font-style:normal;font-weight:400;font-size:12px;line-height:20px;text-align:center;color:#333}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-labels ul li{display:flex;align-items:center}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-labels ul li .label-circle{height:4px;width:20px;border-radius:0;margin-right:8px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-labels ul li span{font-style:normal;font-weight:400;font-size:12px;line-height:20px;color:#404040}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average{width:100%;border:0;display:flex;padding:0 !important}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel{height:80px;width:33.33333%;padding:0;margin:0;border:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__title{display:flex;justify-content:center;align-items:center}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__title span{height:40px;font-style:normal;font-weight:600;font-size:12px;line-height:20px;display:flex;align-items:center;text-align:center;letter-spacing:1px;text-transform:uppercase;color:#4d4d4d;height:40px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__question-time{font-style:normal;font-weight:700;font-size:32px;line-height:48px;text-align:center;color:#4d4d4d;height:40px;display:flex;align-items:baseline;justify-content:center}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__question-time .icon-clock::before{content:""}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__question-time .icon-clock{background-image:url("https://forge.lseg.com/icons/ui/grey/time-07.svg");background-position:center;background-size:contain;display:inline-block;height:16px;width:16px;margin-right:8px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-results__messages{margin:0;padding:0;display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-results__messages .columns{padding:0;border:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-results__messages .question-results__grade-remaining{padding:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-results__messages .quiz__start__grade span,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-results__messages .quiz__start__attempts span{font-size:21px;font-weight:400;line-height:32px;letter-spacing:0;text-align:left;text-transform:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .results__controls{display:flex;flex-wrap:wrap;padding-top:24px;border-top:1px solid #ccc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .results__controls .btn{display:flex;flex-direction:row;justify-content:center;align-items:center;height:48px;padding:8px 24px;background:rgba(255,255,255,0.4);border:1px solid #4d4d4d;border-radius:5px;font-style:normal;font-weight:700;font-size:19px;line-height:32px;text-align:center;color:#4d4d4d;margin:0 16px 0 0;width:fit-content}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .results__controls .btn.btn--success{display:flex;flex-direction:row;justify-content:center;align-items:center;height:48px;padding:8px 24px;background:#ff5000;border-radius:5px;font-style:normal;font-weight:700;font-size:19px;line-height:32px;text-align:center;color:#fff;border:0;margin:0;width:fit-content}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-grade__container .question_results__title{display:block}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-grade__container .question_results__title span{font-size:21px;font-weight:700;line-height:32px;letter-spacing:0;text-align:left;color:#333;text-transform:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel:nth-of-type(2){border-left:1px solid #ccc;border-right:1px solid #ccc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic__index .topic__index__number span{width:100%;font-style:normal;font-weight:400;font-size:12px;line-height:20px;text-align:center;color:#333;border-color:#ccc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic__index .topic__index__number.topic__index__number--active span{border-color:#001eff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-results__messages .question-results__message{display:none}
+@media only screen and (max-width:480px){.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container{padding:16px;position:fixed;top:0;left:0;width:100%;height:100%;overflow:scroll;background:#fff}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic__index{display:none;padding-bottom:42px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats{margin:0;display:block}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-grade__container{width:auto;margin:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container{width:auto;margin:24px 0 0 0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-chart{width:70%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .question-stats .results__question-chart__container .results__question-labels{width:30%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer{display:contents}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average{flex-direction:column;align-items:center;margin-top:32px;padding:0 16px !important}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel{width:100%;height:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__title{margin-top:12px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel .results__question-time{margin-bottom:12px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .question-stats__container .results__question-chart-timer .results__question-average .panel:nth-of-type(2){border-left:0;border-right:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .results__controls{display:block}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .results__controls .btn{width:100%;margin:0 0 8px 0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__results .results__controls .btn.btn--success{width:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__timer{order:1;margin-left:auto;padding-right:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .ember-view:first-of-type{order:2;flex-direction:column;align-items:unset}
+}
+@media(min-width:768px) and (max-width:1024px){.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container{background:#fff;left:0;overflow:scroll;padding:16px 16px 0 16px;position:fixed;top:0;width:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .quiz__timer{margin-left:auto;order:1;padding:16px 0 16px 16px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .ember-view:first-of-type{align-items:unset;flex-direction:column;order:2}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .topic__index{display:none;padding-bottom:42px}
+}
+@media(min-width:768px){.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--true,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--false{flex-direction:row}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--true .choice__review,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--false .choice__review{width:30%;white-space:nowrap}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--true .choice .leading-loose,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .quiz__container .question__container .choices__list .choice--multiple.choice--selected--false .choice .leading-loose{margin-left:16px}
+}
+.course-group .container .header .header__inner .top-bar{display:none}
+.course-group .container .header .header__inner .nav--top ul{align-items:center;display:flex}
+.course-group .container .header .header__inner .nav--top ul li:nth-of-type(2){display:none}
+.course-group .container .header .header__inner .nav--top ul li a{align-items:center;background:#fff;border-radius:15px;border:1px solid #404040;display:flex;flex-direction:column;height:28px;justify-content:space-between;padding:4px;width:146px}
+.course-group .container .header .header__inner .nav--top ul li a span{color:#404040;font-size:15px;font-weight:600;height:18px;line-height:18px;text-transform:none}
+.course-group .container .home__content .course_title{align-items:center;background-color:#f4f4f4;display:flex;justify-content:left}
+.course-group .container .home__content .course_title .course_title_value{color:#4d4d4d;font-size:32px;font-weight:700;height:auto;line-height:48px;padding:42px 0;width:100%}
+.course-group .container .home__content .course__detail__container{display:flex;padding-top:48px}
+.course-group .container .home__content .course__detail__container .course__detail__content{margin:0;padding:0 32px 0 0;width:67%}
+.course-group .container .home__content .course__detail__container .course_sidebar_parent{width:33%}
+.course-group .container .home__content .course__detail__container .course__detail__content .course__detail__header{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column{padding:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs{align-items:center;border-bottom:0;display:flex;height:52px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs li{margin-right:34px;width:fit-content}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs .tab-title.active{border-bottom:2px solid #001eff}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs li a{background-color:#fff;border:0;color:#4d4d4d;font-size:15px;font-weight:700;line-height:24px;padding:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content{margin-top:16px;padding-top:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content{padding:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .editor-content p strong{color:#4d4d4d;font-size:21px;font-weight:400;line-height:32px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .editor-content p{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .editor-content ul{list-style:disc}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor{margin-bottom:32px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns p strong{color:#4d4d4d;font-size:21px;font-weight:400;line-height:32px;margin-bottom:16px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns .editor-content p{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px;margin-bottom:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar{padding:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel{background-color:#fff;border-bottom:1px solid #ccc;border-radius:0;margin:0;padding:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .course__detail__runs{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel label .heading span{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px;margin-bottom:4px}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel #session-select{margin-bottom:24px}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel p strong.h6{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .webinar__dates{margin-top:32px;pointer-events:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .webinar__dates li{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px;margin-bottom:16px}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar a.btn,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .btn{align-items:center;background:#ff5000;border-radius:5px;border:1px solid #ff5000;color:#fff;display:flex;flex-direction:row;font-size:19px;font-weight:700;height:auto;justify-content:center;line-height:32px;margin-bottom:32px;padding:8px 24px;text-align:center;width:fit-content}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar a.btn:hover,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .btn:hover{background-color:#cc4000;border-color:#cc4000}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar a.btn{margin:32px 0 32px 0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .sidebar_horizontal_line,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .sidebar_horizontal_line{background:#ccc;height:1px;margin:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .sidebar_title_container{margin-bottom:24px}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .sidebar_title_container .sidebar_title{color:#4d4d4d;font-size:12px;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:uppercase}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-social,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-benefits,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--one-column{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .panel{border:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .course__related__title{background-color:#fff;border-bottom:1px solid #ccc;color:#4d4d4d;display:block;font-size:12px;font-weight:600;letter-spacing:1px;line-height:20px;margin-bottom:0 !important;margin:0;padding-bottom:24px !important;padding:0;text-transform:uppercase}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .course__related__list li{align-items:center;border-bottom:1px solid #ccc;display:flex;padding:32px 0 32px 0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .course__related__list li a img{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .course__related__list li a p{color:#4d4d4d;font-size:15px;font-weight:700;line-height:24px;margin:0 18px 0 0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .course__related__list li .related_course_icon{margin-left:auto}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .enroll__title,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel span{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel p{margin-bottom:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-related .course__related .course__related__title span,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel .btn span,.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .panel label span{display:block}
+.course-group .container .session-dropdown{border-bottom:1px solid #ccc;padding-bottom:24px;position:relative}
+.course-group .container .session-dropdown-container{align-items:center;background-color:#fff;border-radius:5px;border:1px solid #d9d9d9;box-sizing:border-box;cursor:pointer;display:flex;flex-direction:row;justify-content:space-between;padding:13px 16px;width:100%}
+.course-group .container .session-dropdown-container .option-default{color:#404040;font-size:15px;font-weight:500;line-height:24px}
+.course-group .container .session-dropdown-content>div:hover{border-left:5px solid #001eff;background:#f2f2f2}
+.course-group .container .session-dropdown-content .session-dropdown-option.selected-option{border-left:5px solid #001eff;background:#f2f2f2}
+.course-group .container .session-dropdown-content{border:1px solid #d9d9d9;position:absolute;width:100%;z-index:1}
+.course-group .container .session-dropdown-content>div{align-items:center;background-color:white;box-sizing:border-box;color:#404040;cursor:pointer;display:flex;font-size:15px;font-weight:500;justify-content:space-between;line-height:24px;padding:13px 16px;width:100%}
+.course-group .container .session-dropdown-content{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .course_sidebar_email_support_container{align-items:center;border-bottom:1px solid #ccc;border-top:1px solid #ccc;display:flex;padding:32px 0 32px 0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .email_support_content_section .email_support_title{background-color:#fff;color:#4d4d4d;font-size:12px;font-weight:600;letter-spacing:1px;line-height:20px;margin-bottom:8px;text-transform:uppercase}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .email_support_content_section .email_support_link{color:#4d4d4d;font-size:15px;font-weight:700;line-height:24px}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .email_support_icon_section{margin-left:auto}
+.course-group .container .footer{display:none}
+@media(min-width:768px){.course-group .container .home__content .course_title .course_title_value,.course-group .container .header_link_container .header_link{max-width:1280px;margin:auto}
+.course-group .container .home__content .course__detail__container{max-width:1280px}
+}
+@media(min-width:768px) and (max-width:1024px){.course-group .container{padding-top:0 !important}
+.course-group .container .header_link_container .header_link{padding:0 16px}
+.course-group .container .header .header__inner .company__school-name__divider{display:block}
+.course-group .container .home__content .course__detail__container .course-purchase__mobile-button{display:none}
+.course-group .container .home__content .course_title{padding:0 16px}
+.course-group .container .home__content .course__detail__container{display:flex;justify-content:space-between;padding:8px 16px}
+.course-group .container .home__content .course__detail__container .course__detail__content{padding:0;margin-right:32px;width:50%}
+.course-group .container .home__content .course__detail__container .course_sidebar_parent{width:50%}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar{width:100%}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar{padding-right:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content{border:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns p{margin-top:16px;margin-bottom:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-3.columns{width:100%}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns{width:100%}
+}
+@media only screen and (max-width:480px){.course-group .container{padding-top:0 !important}
+.course-group .container .home__content .course__detail__container .course-purchase__mobile-button{display:none}
+.course-group .container .header_link_container .header_link{padding:0 16px}
+.course-group .container .header{height:auto}
+.course-group .container .home__content .course_title{padding:0 16px 0 16px}
+.course-group .container .home__content .course_title,.course-group .container .home__content .course_title .course_title_value{height:auto}
+.course-group .container .home__content .course__detail__container{display:flex;flex-direction:column;padding:16px}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar{margin-bottom:12px;order:1}
+.course-group .container .home__content .course__detail__container .course__detail__content{order:2;padding-right:0;width:100%}
+.course-group .container .home__content .course__detail__container .course_sidebar_parent,.course-group .container .home__content .course__detail__container .course__detail__sidebar{width:100%}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar{padding-right:0}
+.course-group .container .home__content .course__detail__container .course__detail__sidebar .course-detail-sidebar-title{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .course__detail__asset{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content{border:0}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs li{width:fit-content}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns{height:auto;padding-left:16px;width:100%}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns p{margin-top:16px;margin-bottom:0}
+}
+@media(min-width:1024px){.course-group .container .home__content .course__detail__container .course__detail__sidebar{width:100%}
+}
+.course .course__container{max-width:100%}
+.course .course__container .learner__sidebar__expandables:first-child{border:0}
+.course .course__container .header{align-items:center;border-bottom:1px solid #ccc;box-shadow:none;display:flex;height:100%;margin:auto;max-width:1280px}
+.course .course__container .header .header--learner-child-container{align-items:center;display:flex}
+.course .course__container .header .header__left{order:1;right:0;display:flex;height:100%;width:100%}
+.course .course__container .header .header__left .header__left__icon{align-items:center;background:#f2f2f2;display:flex;justify-content:center;padding:0;margin:0;width:14%;height:unset;flex:1}
+.course .course__container .header .header__left .header__left__copy{align-items:center;display:flex;height:100%;padding:0;padding:24px 0 24px 28px;width:86%}
+.course .course__container .header .header__right{left:0;order:2}
+.course .course__container .header .header__left .header__left__copy .course-title{color:#4d4d4d;font-size:28px;font-weight:400;line-height:36px;overflow:visible;text-overflow:unset;white-space:unset}
+.course .course__container .header .header__right .company-logo__container{margin-top:0}
+.course .course__container .learner__container{background:#fff}
+.course .course__container .learner__container .learner__sidebar{padding-right:0;padding-top:48px}
+.course .course__container .learner__container .learner__content{padding-top:48px}
+.course .course__container .learner__container .learner__sidebar .learner__container__toggle button{align-items:center;background:#001eff;border:0;color:#fff;display:flex;font-size:15px;font-weight:400;height:27px;justify-content:center;line-height:24px;margin-left:auto;width:81.7px}
+.course .course__container .learner__container .learner__sidebar .learner__container__toggle button .icon-delete::before{content:""}
+.course .course__container .learner__container .learner__sidebar .learner__container__toggle button .icon-delete{background-image:url("https://forge.lseg.com/icons/ui/white/close.svg");background-position:center;background-repeat:no-repeat;background-size:20px;display:inline-block;min-height:16px;min-width:16px;margin-right:6px}
+.course .course__container .learner__container .learner__sidebar .learner__container__toggle button span{color:#fff;font-size:15px;font-weight:400;line-height:24px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content{padding:0}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list{overflow-y:hidden}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list{border:1px solid #ccc;margin:0;min-height:81px;padding:12px 20px 16px 16px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list.syllabus__section--active{background:#f2f2f2;border-left:4px solid #001eff}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__lesson--title .completed__indicator{align-items:center;display:flex;height:24px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__lesson--title .completed__indicator .icon-check{color:#001eff;font-size:15px;padding:5px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-title{color:#1a1a1a;font-size:19px;font-weight:700;line-height:32px;margin:0;text-transform:none}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-title .syllabus__section-title-index{display:none}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-title .syllabus__section-title-index{color:#1a1a1a;font-size:19px;font-style:normal;font-weight:700;line-height:32px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list,.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container{margin:0;padding:0}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container .syllabus__lesson .syllabus__lesson--title .syllabus__lesson--title-text{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px;padding-left:0}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container .syllabus__lesson button{align-items:center;display:flex;height:24px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container .syllabus__lesson .syllabus__topics .syllabus__topic{background:#f2f2f2;padding-left:0}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container .syllabus__lesson .syllabus__topics .syllabus__topic .syllabus__topic--non-expandable-title-text{color:#000;font-size:12px;font-style:normal;font-weight:700;line-height:20px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container .syllabus__lesson .syllabus__topics .syllabus__topic .syllabus__topic--non-expandable-title .lesson-progress-page .icon-circle span{background:#001eff;height:9px;width:9px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__section-list .syllabus__lesson-container .syllabus__lesson .syllabus__topics .syllabus__topic .syllabus__topic--non-expandable-title .lesson-progress-page{display:flex;padding-right:4px;padding-top:6px}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar__buttons{display:none}
+.course .course__container .learner__container .learner__sidebar .layout-panel{padding-bottom:0}
+.course .topic__content.topic__content--text{padding:0}
+.course .course__container .learner__container--closed .learner__content{padding-top:48px;padding:32px}
+.course .course__container .learner__container .learner__content .learner__container__toggle button{align-items:center;background:#001eff;border:0;color:#fff;display:flex;font-size:15px;font-weight:400;height:27px;justify-content:center;line-height:24px;margin-right:auto;width:81.7px}
+.course .course__container .learner__container .learner__content .learner__container__toggle button .icon-list::before{content:""}
+.course .course__container .learner__container .learner__content .learner__container__toggle button .icon-list{background-image:url("https://forge.lseg.com/icons/ui/white/menu.svg");background-position:center;background-repeat:no-repeat;background-size:20px;display:inline-block;margin-right:6px;min-height:16px;min-width:16px}
+.course .course__container .learner__container .learner__content .learner__container__toggle button span{color:#fff;font-size:15px;font-weight:400;line-height:24px}
+.course .course__container .learner__container .learner__content .layout-panel{padding:0}
+.course .course__container .learner__container .learner__content .learner-section__title__container{color:#4d4d4d;font-size:28px;font-weight:400;line-height:36px;margin-bottom:12px}
+.course .course__container .learner__container .learner__content .learner-section__progress .section-progress-bar{padding:0}
+.course .course__container .learner__container .learner__content .learner-section__progress .section-progress-bar div{background:#ccc}
+.course .course__container .learner__container .learner__content .learner-section__progress .section-progress-bar span{background:#001eff;height:5px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container a,.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container .btn{padding-bottom:0;padding-left:0;padding-right:0;padding-top:12px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container a .directional__nav__label{color:#001eff;font-size:12px;font-weight:400;line-height:20px;padding:4px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container a .directional__nav__button{align-items:center;background:#001eff;display:flex;height:25px;justify-content:center;width:25px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container .btn .directional__nav__button{width:25px;height:25px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container a .directional__nav__button i{font-size:20px}
+.course .course__container .learner__container .learner__content .topic__container{min-height:200px;padding:12px 0 12px 0}
+.course .course__container .learner__container .learner__content .layout-panel .section .row .columns{padding:0 !important}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .row .columns{padding:0 16px !important}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns h2{margin-bottom:4px;order:1}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns p{order:2}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns p,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns h2{color:#000;font-size:21px;font-weight:500;line-height:32px;margin-bottom:12px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns h3{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .course_details strong{color:#000;font-size:19px;font-weight:400;line-height:40px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .course_details p{margin-bottom:8px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .course_details p,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .course_details ul li{color:#000;font-size:15px;font-weight:400;line-height:24px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .course_details ul{list-style:disc;margin:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta{align-items:center;display:flex;margin-bottom:32px;margin-top:32px;order:3}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .course_details{order:4}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta .btn{align-items:center;background:#ff5000;border-radius:5px;border:0;display:flex;flex-direction:row;height:48px;justify-content:center;margin-bottom:0;padding:8px 24px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta .btn span,.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta .btn.btn--disabled span{font-style:normal;font-size:19px;font-weight:600;line-height:32px;text-align:center;color:#fff;margin-bottom:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta .btn.btn--disabled{background:#b2b2b2;opacity:unset}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta small{color:#000;font-size:12px;font-weight:400;line-height:20px;margin-left:12px;max-width:315px}
+.course .course__container .completed-section__overlay{background:rgba(0,0,0,0.5)}
+.sidebar--open--right .sidebar__container.sidebar__container--right{align-items:center;background:#fff;display:flex;padding:0 32px 0 32px;width:533px}
+.sidebar_close_img_container{align-items:center;cursor:pointer;display:flex;justify-content:end;margin-top:24px;width:100%}
+.course .course__container .sidebar__container .sidebar_success_img{margin-bottom:16px;margin-top:72px;filter:invert(8%) sepia(100%) saturate(6831%) hue-rotate(241deg) brightness(107%) contrast(126%)}
+.course .course__container .sidebar__container .h4,.course .course__container .sidebar__container .h5{margin-bottom:16px}
+.course .course__container .sidebar__container .ember-view{width:100%}
+.course .course__container .sidebar__container .h3.heading{color:#4d4d4d;font-size:28px;font-weight:400;line-height:36px;text-align:center;margin-bottom:12px}
+.course .course__container .sidebar__container .h4 span{color:#4d4d4d;font-size:28px;font-weight:400;line-height:36px;text-align:center}
+.course .course__container .sidebar__container .h5 span{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px;text-align:center}
+.course .course__container .sidebar__container .h4 strong,.course .course__container .sidebar__container .h2.heading{color:#4d4d4d;font-size:19px;font-weight:700;line-height:32px;text-align:center;text-transform:capitalize}
+.course .course__container .sidebar__container .btn--primary{align-items:center;background:#ff5000;border-radius:5px;border:0;color:#fff;display:flex;font-size:19px;font-weight:600;height:auto;justify-content:center;line-height:32px;margin-left:auto;margin-right:auto;margin-top:48px;padding:8px 24px;text-align:center;width:fit-content}
+.course .course__container .sidebar__container .share__container{display:none}
+.course .course__container .sidebar__container .sidebar__testimonial{margin-bottom:24px}
+.course .course__container .sidebar__container .sidebar__testimonial .panel{background-color:#fff;border:0;border-color:none;padding:0;text-align:center}
+.course .course__container .sidebar__container .sidebar__testimonial .panel p{margin-bottom:12px}
+.course .course__container .sidebar__container .sidebar__testimonial .panel p span{font-style:normal;font-weight:400;font-size:15px;line-height:24px;text-align:center;color:#4d4d4d}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .sidebar__testimonial__rating{display:flex;flex-direction:column;align-items:center;margin-bottom:32px}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .sidebar__testimonial__rating span{font-style:normal;font-weight:700;font-size:19px;line-height:32px;text-align:center;color:#4d4d4d;margin-bottom:8px;margin-right:0;text-transform:none}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .sidebar__testimonial__rating .stars{width:fit-content;margin-top:0}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .sidebar__testimonial__rating .stars i::before{font-size:30px}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .sidebar__testimonial__rating .stars i:hover{color:#001eff}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .ember-text-area.form-control{min-height:192px;width:100%;padding:12px;margin:0;font-style:normal;font-weight:400;font-size:15px;line-height:24px;color:#4d4d4d;background:#fff;border:1px solid #ccc}
+.course .course__container .sidebar__container .sidebar__testimonial .panel .ember-text-area.form-control::placeholder{font-style:normal;font-weight:400;font-size:15px;line-height:24px;color:#4d4d4d}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__lesson--title .completed__indicator .icon-check::before{content:""}
+.course .course__container .learner__container .learner__sidebar .expandable-sidebar .expandable-sidebar__content .learner__sidebar-list .learner__sidebar-inner-list .syllabus__lesson--title .completed__indicator .icon-check{background-image:url('https://forge.lseg.com/icons/ui/blue/tick.svg');background-position:center;background-repeat:no-repeat;background-size:24px;display:inline-block;min-height:16px;min-width:16px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container--prev .directional__nav__button--left .icon-navigateleft::before{content:""}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container--prev .directional__nav__button--left .icon-navigateleft{background-image:url('https://forge.lseg.com/icons/ui/white/caret-left.svg');background-position:center;background-repeat:no-repeat;background-size:25px;display:inline-block;min-height:20px;min-width:20px}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container--next .directional__nav__button--right .icon-navigateright::before{content:""}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container--next .directional__nav__button--right .icon-navigateright{background-image:url('https://forge.lseg.com/icons/ui/white/caret-right.svg');background-position:center;background-repeat:no-repeat;background-size:25px;display:inline-block;min-height:20px;min-width:20px}
+@media(min-width:768px) and (max-width:1024px){.course .course__container .header{min-height:80px}
+.course .course__container .header .header__left{height:100%;width:70%}
+.course .course__container .header .header__left .header__left__icon{width:13%}
+.course .course__container .header .header__left .header__left__copy{height:100%;padding:24px 0 24px 11px;width:87%}
+.course .course__container .header .header__right{display:block;width:30%}
+.course .course__container .header .header--learner-child-container{height:100%}
+.course .course__container .learner__container--closed .learner__content{padding:16px}
+.course .course__container .learner__container{display:flex;flex-direction:column;max-width:1280px;padding:16px}
+.course .course__container .learner__container--toggled .learner__sidebar{padding-left:0;width:40%}
+.course .course__container .learner__container--toggled .learner__content{-webkit-transform:none;padding-left:16px;position:relative;transform:none;width:100%}
+.course .course__container .learner__container--toggled .learner__sidebar .learner__container__toggle .btn{margin-right:auto;margin-left:unset}
+.course .course__container .learner__container .learner__sidebar{padding-right:18px;padding-top:0}
+.course .course__container .learner__container .learner__content{padding:0;padding-right:0 !important}
+.course .course__container .learner__container .learner__content .layout-panel .row .columns{padding:0 !important}
+.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container a{padding-right:0;padding-left:0}
+.course .course__container .learner__container .learner__content .layout-panel .row .columns .learner-section__title__container h3{padding-right:16px}
+.sidebar--open--right .sidebar__container.sidebar__container--right{width:70%}
+}
+@media only screen and (max-width:480px){.course .course__container .header{min-height:80px}
+.course .course__container .header .header--learner-child-container{height:100%}
+.course .course__container .header .header__right{display:none}
+.course .course__container .header .header__left{height:100%}
+.course .course__container .header .header__left .header__left__icon{align-items:center;display:flex;justify-content:center;width:18%}
+.course .course__container .header .header__left .header__left__copy{height:100%;padding:16px;width:82%}
+.course .course__container .header .header__left .header__left__copy .course-title{color:#4d4d4d;font-size:15px;font-weight:700;line-height:24px}
+.course .course__container .learner__container--closed .learner__content{padding:16px}
+.course .course__container .learner__container{padding-top:0}
+.course .course__container .learner__container .learner__sidebar{padding-bottom:0;padding-left:16px !important;padding-right:18px !important;width:100%}
+.course .course__container .learner__container--toggled .learner__content{-webkit-transform:none !important;padding-top:0;position:relative;transform:none !important}
+.course .course__container .learner__container--toggled .learner__sidebar{padding-top:16px}
+.course .course__container .learner__container--toggled .learner__sidebar .learner__container__toggle .btn{margin-right:auto;margin-left:unset}
+.course .course__container .learner__container .learner__content .layout-panel .row .columns,.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container .btn,.course .course__container .learner__container .learner__content .directional__nav .directional__nav__button__container a{padding-left:0;padding-right:0}
+.course .course__container .learner__container .learner__content .layout-panel .row .columns .learner-section__title__container h3{padding-right:16px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .row .columns .class_details_cta small{width:120px}
+.course .course__container .learner__container .learner__content .topic__container{padding-bottom:20px;padding-top:20px}
+.sidebar--open--right .sidebar__container.sidebar__container--right{width:100%;padding:16px}
+}
+@media(min-width:768px){.course .course__container{background-color:#fff}
+.course .course__container .header_link_container .header_link,.course .course__container .header .header--learner-child-container{margin:auto;max-width:1280px}
+.course .course__container .learner__container{margin:auto;max-width:1280px}
+.course .course__container .learner__container .learner__sidebar{min-width:288px;padding-left:0;padding-right:32px}
+.course .course__container .learner__container .learner__content{padding-left:0;padding-right:32px}
+.course .course__container .learner__container--closed .learner__sidebar{padding-right:100px}
+.course .course__container .learner__container--closed .learner__content{padding-left:0}
+}
+.container{background-color:#fff;max-width:100%}
+.dashboard .container .header--dashboard{padding:0}
+.dashboard .container .header--dashboard .header__inner{align-items:center;display:flex;margin:auto;max-width:1280px}
+.dashboard .container .header--dashboard .header__inner .row{align-items:center;display:flex}
+.dashboard .container .header--dashboard .header__inner .row .column{align-items:center;display:flex;padding:0}
+.dashboard .container .header--dashboard .header__inner .company__school-name__divider{order:2}
+.dashboard .container .header--dashboard .header__inner .company__school-name{order:3;position:unset;margin-top:0}
+.dashboard .container .header--dashboard .header__inner .row .column .columns{align-items:center;display:flex;padding:0}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header-dropdown__link{padding:0}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header__learning_name{align-items:center;background:#fff;border-radius:15px;border:1px solid #404040;box-sizing:border-box;color:#404040;display:flex;font-size:15px;font-style:normal;font-weight:600;height:28px;justify-content:space-between;line-height:18px;margin-right:30px;padding:4px 24px;white-space:nowrap}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header-dropdown__link .dashboard-header__name{align-items:center;background:#000;border-radius:15px;border:1px solid #000;box-sizing:border-box;color:#fff;cursor:default;display:flex;font-size:15px;font-style:normal;font-weight:600;height:28px;justify-content:center;line-height:18px;margin:0;overflow:visible;padding:4px 24px;text-align:center;text-overflow:unset;text-transform:capitalize;white-space:nowrap}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header-dropdown__link .row .columns{display:flex;padding:0;width:100%}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header-dropdown,.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header-dropdown__link .dashboard-header__avatar__container{display:none !important}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner{margin:auto}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-stats{display:none}
+.dashboard .container .Section .Poster .Poster-content{margin:auto;max-width:1280px;padding:0}
+.dashboard .container .Section .Poster .Poster-content .VerticalSpacing--xs{margin-bottom:4px}
+.dashboard .container .Section .Poster .Poster-content .VerticalSpacing--m{margin-bottom:16px}
+.dashboard .container .Section .Poster .Poster-content .Eyebrow{color:#fff;font-size:12px;font-style:normal;font-weight:500;letter-spacing:1px;line-height:20px;text-transform:uppercase}
+.dashboard .container .Section .Poster .Poster-content .Heading{color:#fff;font-size:45px;font-style:normal;font-weight:400;line-height:56px}
+.dashboard .container .Section .Poster .Poster-content .RichText{color:#fff;font-size:19px;font-style:normal;font-weight:500;line-height:32px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access{max-width:1280px;padding:46px 0 0 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access{border:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs{background:0;border-bottom:0;padding-bottom:26px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li{margin-right:36px;padding:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li.dashboard-access-tab--active{border-bottom:2px solid #001eff;border-top:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li.dashboard-access-tab--active:after{bottom:0;height:2px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li .btn{border:0;outline:0;background:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li .dashboard-access-tab__label{color:#4d4d4d;font-size:15px;font-style:normal;font-weight:700;line-height:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li .dashboard-access-tab__count{border:0;color:#4d4d4d;font-size:15px;font-style:normal;font-weight:400;line-height:24px;margin:0;padding:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item{background:#fff;border-bottom:1px solid #ccc;padding:18px 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container{align-items:center;display:flex}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-accordian{width:60%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-content-type{margin-left:auto;margin-right:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_title{width:60%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_type{margin-left:auto;margin-right:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_access_buttons .view_certificate{margin-right:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-access-list-item-expander{align-items:center;border:0;display:flex;height:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .icon-navigateright,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .icon-navigatedown{background:#d9d9d9;border-radius:50px;margin-right:14px;padding:8px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .icon-navigateright::before{content:""}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .icon-navigateright{background-image:url("https://forge.lseg.com/icons/ui/grey/caret-down-07.svg");background-position:center;background-repeat:no-repeat;background-size:20px;display:inline-block;min-height:36px;min-width:36px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .icon-navigatedown::before{content:""}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .icon-navigatedown{background-image:url("https://forge.lseg.com/icons/ui/grey/caret-up-07.svg");background-position:center;background-repeat:no-repeat;background-size:20px;display:inline-block;min-height:36px;min-width:36px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .btn{border:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expander__title{color:#4d4d4d;font-size:15px;font-style:normal;font-weight:700;line-height:32px;margin-left:48px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_title .dashboard-access-list-item-expander__title,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .btn .dashboard-access-list-item-expander__title{margin-left:0;overflow:hidden}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_type strong,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item strong{color:#4d4d4d;font-size:15px;font-style:normal;font-weight:400;line-height:18px;text-align:right;white-space:pre}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item a.btn{align-items:center;background:#fff;border-radius:15px;border:1px solid #404040;color:#404040;display:flex;font-size:15px;font-style:normal;font-weight:400;height:28px;justify-content:center;line-height:18px;padding:5px 24px;white-space:nowrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons .btn span,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .access_cta_button .btn span{color:#404040;font-size:15px;font-style:normal;font-weight:400;line-height:18px;white-space:nowrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons .columns{margin:0;padding:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion{margin:32px 0 6px 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .dashboard-access-list-item__description{color:#404040;font-size:15px;font-style:normal;font-weight:400;line-height:24px;margin-bottom:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .dashboard-access-list-item__description p{color:#404040;font-size:15px;font-style:normal;font-weight:400;line-height:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .dashboard-access-list-view-detail-page{display:none}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats{margin-bottom:24px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-progress-bar .progress{background:#e6e6e6;border-radius:10px;border:1px solid #ccc;height:13px;margin:0;padding:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-progress-bar .progress .meter{background:#22775e;border-radius:10px;height:13px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat{padding:0;width:33.3333333333%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container{align-items:center;display:flex;height:40px;justify-content:flex-start;position:relative}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container .user-engagement-stat__label{align-items:center;color:#4d4d4d;display:flex;flex:0 1 auto;font-size:12px;font-style:normal;font-weight:600;left:50%;letter-spacing:1px;line-height:20px;padding:0;position:absolute;text-align:center;text-transform:uppercase;transform:translateX(-50%);white-space:nowrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container .user-engagement-stat__label-hint{flex:0 1 auto;margin-left:auto;margin-right:12px;position:unset}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container{align-items:baseline;display:flex;height:48px;justify-content:center;margin:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container i{margin-right:4px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container .user-engagement-stat__value,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container .user-engagement-stat__value--muted{color:#4d4d4d;font-size:32px;font-style:normal;font-weight:700;line-height:48px;text-align:center}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container .user-engagement-stat__value--percent{margin-bottom:auto;margin-left:4px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat::before{background-color:#ccc;height:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container .icon-stopwatch::before{content:""}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__value-container .icon-stopwatch{background-image:url("https://forge.lseg.com/icons/ui/grey/time-07.svg");background-position:center;background-size:contain;display:inline-block;height:16px;width:16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container .user-engagement-stat__label-hint .has-tooltip{display:flex}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container .user-engagement-stat__label-hint .icon-help::before{content:""}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container .user-engagement-stat__label-hint .icon-help{background-image:url("https://forge.lseg.com/icons/ui/grey/question-07.svg");background-position:center;background-size:contain;display:inline-block;height:16px;width:16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image{padding:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero{height:360px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero__caption{background:0;bottom:0;left:50%;max-width:1280px;padding:0;top:50%;transform:translate(-50%,-50%)}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero__caption .hero__title{color:#fff;font-size:45px;font-style:normal;font-weight:400;line-height:56px;margin-bottom:16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero__caption .h4{color:#fff;font-size:19px;font-style:normal;font-weight:500;line-height:32px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero__caption .hero_eyebrow{color:#fff;font-size:12px;font-style:normal;font-weight:500;letter-spacing:1px;line-height:20px;margin-bottom:4px;text-transform:uppercase}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access section{border-top:1px solid #ccc;margin-bottom:48px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons .linked_in_button{background-color:#017bb6;border-radius:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons .linked_in_button .linked_in_text{color:#fff;font-weight:600px !important}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--catalog,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--html{display:none}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content{background-color:#f4f4f4;padding:0;padding:48px 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-with-sidebar .featured-content-sidebar{display:none}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-with-sidebar .medium-9.columns{padding:0;width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .small-12.columns{padding:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item{border:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body{background-color:white;display:flex;flex-direction:column;min-height:336px;padding:32px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-article-item__title{color:#404040;display:block;font-size:21px;font-style:normal;font-weight:700;line-height:32px;margin-bottom:12px;margin:0;order:2}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-multi-carousel-item__source{display:block;display:flex;flex-direction:column;margin-bottom:4px;order:1}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-multi-carousel-item__source strong{color:#4d4d4d;display:flex;flex-direction:column;font-size:12px;font-style:normal;font-weight:600;letter-spacing:1px;line-height:20px;text-transform:uppercase}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-multi-carousel-item__source .grid_item_image{margin-bottom:12px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body p,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-article-item__description{display:none}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-article-item__cta{align-items:center;display:flex;margin-top:auto;order:3}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-article-item__body .featured-content-article-item__cta .cta_text{color:#4d4d4d;font-size:15px;font-style:normal;font-weight:700;line-height:24px;margin-right:10px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access .dashboard-access-list-item .btn--primary{align-items:center;background:#fff;border-radius:15px;border:1px solid #404040 !important;color:#404040;display:flex;font-size:15px;font-style:normal;font-weight:400;height:28px;justify-content:center;line-height:18px;padding:5px 24px;white-space:nowrap}
+@media only screen and (max-width:480px){.dashboard .container .header--dashboard .header__inner{height:auto}
+.dashboard .container .header--dashboard .header__inner .row{align-items:flex-start;flex-direction:column}
+.dashboard .container .header--dashboard .header__inner .row .column{align-items:flex-start;display:flex;flex-direction:column;width:100%}
+.dashboard .container .header--dashboard .header__inner .row .column .company__beta-logo{margin-top:8px}
+.dashboard .container .header--dashboard .header__inner .row .column .columns{flex-wrap:wrap;flex-direction:row;padding:0 16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access{padding:16px}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header__learning_name{margin:6px 8px 6px 0}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header-dropdown__link{margin:6px 0 6px 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--catalog{padding-left:16px;padding-right:16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero img{height:360px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero__caption{padding:0 16px 0 16px;position:absolute}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content{overflow:hidden;padding:16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access-tabs li{margin:14px 26px 0 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-access-list-item-expander{align-items:flex-start}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-accordian{width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container{flex-direction:unset;flex-wrap:wrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-content-type{margin:8px 0 8px 48px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .access_cta_button{margin-left:48px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats ul{display:flex;flex-wrap:wrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat{width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat:nth-of-type(2){border-top:1px solid #ccc;border-bottom:1px solid #ccc}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_title{width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_type{margin:0;width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_type{margin:8px 0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_access_buttons .view_certificate{margin:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .certificate_access_buttons .linked_in_button{margin-top:4px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat .user-engagement-stat__label-container .user-engagement-stat__label-hint .tooltip.tooltip--right{right:100%;margin-right:1em;margin-top:-4px;top:4px}
+}
+@media(min-width:768px) and (max-width:1024px){.dashboard .container .header--dashboard .header__inner{padding:8px 16px}
+.dashboard .container .header--dashboard .header__inner .company__school-name__divider{display:block}
+.dashboard .container .header--dashboard .header__inner .row .column .dashboard-header__learning_name{margin-right:8px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero img{height:360px;object-fit:cover}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--hero-image .hero__caption{padding:0 16px 0 16px;position:absolute}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access{padding:48px 16px 0 16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--catalog{padding:48px 16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container{flex-wrap:wrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-accordian{width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-content-type{margin-left:48px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .dashboard-access-list-item-expander{align-items:flex-start}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .row{display:flex;flex-wrap:wrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .row .medium-4.columns{flex:30%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .row .medium-8.columns{flex:70%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats ul{display:flex}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_title{width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_access_buttons .dashboard-access-flex-container{flex-wrap:nowrap}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-flex-container .certificate_type{margin-left:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--dashboard-access .dashboard-access section .dashboard-access-list-item .dashboard-access-list-item-expansion .user-engagement-stats .user-engagement-stat::before{background-color:#ccc;content:" ";display:block;height:100%;position:absolute;right:0;top:0;width:1px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content{overflow:hidden;padding:16px}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item{padding-top:0}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid{display:flex;flex-direction:column}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item img,.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid li{width:100%}
+.dashboard .container .dashboard_main_content .dashboard_main_content_inner .widget--featured-content .featured-content-block-grid .featured-content-article-item .featured-content-multi-carousel-item__source .grid_item_image{width:48px}
+}
+body.learning-path{background:#fff}
+.learning-path .container .header .header__inner .top-bar{display:none}
+.learning-path .container .header .header__inner .nav--top ul{align-items:center;display:flex}
+.learning-path .container .header .header__inner .nav--top ul li:nth-of-type(2){display:none}
+.learning-path .container .header .header__inner .nav--top ul li a{align-items:center;background:#fff;border-radius:15px;border:1px solid #404040;display:flex;flex-direction:column;height:28px;justify-content:space-between;padding:4px;width:146px}
+.learning-path .container .header .header__inner .nav--top ul li a span{color:#404040;font-size:15px;font-weight:600;height:18px;line-height:18px;text-transform:none}
+.learning-path .container .home__content{padding:0}
+.learning-path .container .home__content .learning_path_title_container{align-items:center;background-color:#f4f4f4;display:flex;justify-content:left}
+.learning-path .container .home__content .learning_path_title_container .learning_path_title_value{color:#4d4d4d;font-size:32px;font-weight:700;height:auto;line-height:48px;margin:auto;max-width:1280px;padding:42px 0;width:100%}
+.learning-path .container .home__content .course__detail__container{display:flex;padding-top:48px;max-width:1280px;margin:auto}
+.learning-path .container .home__content .course__detail__container .course__detail__content{margin:0;padding:0 32px 0 0;width:67%}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar{width:33%}
+.learning-path .container .home__content .course__detail__container .course__detail__content p:first-of-type,.learning-path .container .home__content .course__detail__container .course__detail__content .course__detail__description,.learning-path .container .home__content .course__detail__container .course__detail__content .h2,.learning-path .container .home__content .course__detail__container .course__detail__content .collection__courses,.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--learning-path-purchase .enroll .enroll__secondary-actions,.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--course-benefits{display:none}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column{padding:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs{align-items:center;border-bottom:0;display:flex;height:52px}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs .tab-title{margin-right:34px;width:fit-content}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs .tab-title.active{border-bottom:2px solid #001eff}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs .tab-title a{background-color:#fff;border:0;color:#4d4d4d;font-size:15px;font-weight:700;line-height:24px;padding:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content{margin-top:16px;padding-top:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content p{display:block}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content{padding:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .editor-content p strong{color:#4d4d4d;font-size:21px;font-weight:400;line-height:32px}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .editor-content p{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .editor-content ul{list-style:disc}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor{margin-bottom:32px}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns p strong{color:#4d4d4d;font-size:21px;font-weight:400;line-height:32px;margin-bottom:16px}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns .editor-content p{color:#4d4d4d;font-size:15px;font-weight:400;line-height:24px;margin-bottom:0}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .learningpath_detail_sidebar_title_container{margin-bottom:20px}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .learningpath_detail_sidebar_title_container .learningpath_detail_sidebar_title{font-style:normal;font-weight:600;font-size:12px;line-height:20px;letter-spacing:1px;text-transform:uppercase;color:#4d4d4d}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--learning-path-purchase .enroll .btn{display:flex;width:fit-content;flex-direction:row;justify-content:center;align-items:center;padding:8px 24px;border:1px solid #4d4d4d;border-radius:5px;background-color:#fff;font-style:normal;font-weight:700;font-size:19px;line-height:32px;text-align:center;color:#4d4d4d;margin:32px 0}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--learning-path-purchase .learning_path_sidebar_horizontal_line{background:#ccc;height:1px;margin:0}
+.learning-path .container .footer{display:none}
+@media only screen and (max-width:480px){.learning-path .container{padding-top:0 !important}
+.learning-path .container .home__content .course__detail__container .course-purchase__mobile-button{display:none}
+.learning-path .container .header_link_container .header_link{padding:0 16px}
+.learning-path .container .header{height:auto}
+.learning-path .container .header .header__inner .nav--top{margin-left:0;padding:6px 16px}
+.learning-path .container .home__content .learning_path_title_container,.learning-path .container .home__content .learning_path_title_container .learning_path_title_value{height:auto}
+.learning-path .container .home__content .learning_path_title_container .learning_path_title_value{padding:10px 16px}
+.learning-path .container .home__content .course__detail__container{display:flex;flex-direction:column;padding:16px}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar{margin-bottom:12px;order:1}
+.learning-path .container .home__content .course__detail__container .course__detail__content{order:2;padding-right:0;width:100%}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar{width:100%;padding:0}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar{padding-right:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .course__detail__asset{display:none}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content{border:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs .tab-title{width:fit-content}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns{height:auto;padding-left:16px;width:100%}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns p{margin-top:16px;margin-bottom:0}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar .widget--learning-path-purchase .enroll .btn{width:100%}
+}
+@media(min-width:768px) and (max-width:1024px){.learning-path .container{padding-top:0 !important}
+.learning-path .container .home__content .course__detail__container .course-purchase__mobile-button{display:none}
+.learning-path .container .home__content .learning_path_title_container{padding:0 16px}
+.learning-path .container .home__content .learning_path_title_container .learning_path_title_value{padding:42px 0}
+.learning-path .container .home__content .course__detail__container{display:flex;justify-content:space-between;padding:8px 16px}
+.learning-path .container .home__content .course__detail__container .course__detail__content{padding:0;margin-right:32px;width:50%}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar{width:50%}
+.learning-path .container .home__content .course__detail__container .course__detail__sidebar .layout__content--sidebar{padding-right:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content{border:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns p{margin-top:16px;margin-bottom:0}
+.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-3.columns,.learning-path .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content .content .course__instructor .medium-9.columns{width:100%}
+}
+.kaltura-video-item .entry-id{display:none}
+.kWidgetIframeContainer{height:100%;position:absolute;top:0;width:100%}
+#kaltura_player{width:100%}
+.course .course__container .header_link_container{background:#001eff;height:50px}
+.course .course__container .header_link_container .header_link{align-items:center;display:flex;height:100%}
+.course .course__container .header_link_container .header_link .header_link_icon{margin-right:8px}
+.course .course__container .header_link_container .header_link a{align-items:center;color:#fff;display:flex;font-size:15px;font-weight:700;line-height:24px}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content{width:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content .topic__text__body{padding:0}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container{background-color:#fff;border:1px solid #ccc;height:fit-content;min-height:auto}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container a{min-height:48px !important;padding:12px 16px 12px 16px !important}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container a .icon-check{color:#001eff;font-size:16px;margin-left:auto}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container.border{background:#f2f2f2;border-left:4px solid #001eff !important;border:1px solid #ccc}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container a .text-black{display:none}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container a .text-base{color:#4d4d4d;font-size:15px;font-weight:400 !important;line-height:24px;max-width:216px}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .container.border a .text-base{color:#4d4d4d;font-size:15px;font-weight:700 !important;line-height:24px;max-width:216px}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link .expandable-sidebar__toggle .icon-navigatedown{font-size:16px;rotate:180deg}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link .expandable-sidebar__toggle .icon-navigateright{font-size:16px;rotate:90deg}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link{display:block}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables a.expandable-sidebar__link .expandable-sidebar__toggle,.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link .expandable-sidebar__toggle{align-items:center;color:#fff;display:flex;font-size:15px;font-weight:700;height:37px;line-height:24px;padding:6px 10px;text-transform:none}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables a.expandable-sidebar__link .expandable-sidebar__toggle .icon-compose,.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables a.expandable-sidebar__link .expandable-sidebar__toggle .icon-clock,.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link .expandable-sidebar__toggle .icon-flag{display:none}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link .expandable-sidebar__toggle .icon-navigatedown,.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar__link .expandable-sidebar__toggle .icon-navigateright{margin-left:auto}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall{background:#f4f4f4;height:83px;margin-bottom:0 !important}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress hr,.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .clearfix{display:none}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .table-row{align-items:center;display:flex;padding:8px 12px}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .table-row .small-4{margin-right:8px;width:fit-content}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .table-row .small-4 .avatar{align-items:center;background:#d9d9d9;color:#000;display:flex;font-size:12px;font-weight:600;height:36px;line-height:18px;text-align:center;text-transform:uppercase;width:36px}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .table-row .stat,.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .table-row .description{color:#001eff;font-size:15px;font-weight:700;line-height:24px;margin-right:4px;min-width:initial;text-transform:lowercase;width:fit-content}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .table-row .stat sup{color:#001eff;font-size:15px;font-weight:700;line-height:24px;min-width:initial;text-transform:lowercase;top:0;width:fit-content}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .course-progress__overall__bar{padding:0 10px}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .course-progress__overall__bar .progress{align-items:center;background:#e6e6e6;border-radius:10px;border:1px solid #ccc;display:flex;height:14px;margin-bottom:16px;padding:0}
+.course .course__container .learner__container .learner__sidebar .layout-panel .learner__sidebar__expandables .course-completion-progress .expandable-sidebar .expandable-sidebar__content .course-progress .course-progress__overall .course-progress__overall__bar .progress .meter{background:#22775e;border-radius:10px;height:14px}
+.transcriptInterface .transcript-menu .searchWrapper .search{background-image:url("https://forge.lseg.com/icons/ui/grey/search-07.svg");background-size:16px;background-repeat:no-repeat;border-right-color:#001eff}
+.transcriptInterface .transcript-menu-item .active-elements.download{background-image:url("https://forge.lseg.com/icons/ui/grey/download-07.svg");min-height:16px;min-width:16px;background-repeat:no-repeat;background-size:20px;background-position:center}
+.transcriptInterface .transcript-menu-item .active-elements.print{background-image:url("https://forge.lseg.com/icons/ui/grey/print-07.svg");min-height:16px;min-width:16px;background-repeat:no-repeat;background-size:20px;background-position:center}
+.transcriptInterface .transcript-menu-item.toggleTranscriptBodyWrapper a{color:#001eff;text-decoration:underline}
+.transcriptInterface .transcript-menu .searchWrapper .searchInput,.transcriptInterface .transcript-menu .searchWrapper .searchInput::placeholder{font-style:normal;font-weight:400;font-size:15px;line-height:24px;color:#404040}
+.transcriptInterface .transcript-menu .searchWrapper .searchInput:focus{border:2px solid #404040}
+@media only screen and (max-width:480px){.course .course__container .header_link_container .header_link{padding:16px}
+.transcriptInterface .transcript-menu .searchWrapper{margin-right:0;width:49%}
+}
+@media(min-width:768px) and (max-width:1024px){.course .course__container .header_link_container .header_link{padding:16px}
+}
+body.learning-path{background:#fff}
+.learning-path .container{box-shadow:none}
+.learning-path .container{max-width:100%}
+.learning-path .container .widget--milestones_standard{max-width:1280px}
+.learning-path .container .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__vertical-line{left:-30px}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header{display:flex;height:auto;justify-content:center;overflow:auto;padding:0;width:100%}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header .widget__title{color:#4d4d4d;font-size:32px;font-weight:700;line-height:48px;margin:0;padding:8px 16px 8px 16px;text-align:left;width:1280px}
+.learning-path .container .learning-path-body .learning-path-certificate-circle{background-color:unset;background-size:60px 60px;background-image:url("https://d36ai2hkxl16us.cloudfront.net/thoughtindustries/image/upload/a_exif,c_fill,w_100,h_100/v1/course-uploads/612cd12a-1c8b-4937-8762-a40dc3dc6958/6a7w6sj53j2d-award-rosette.png");border:0;margin:-16px 0 0 36%}
+.learning-path .container .learning-certificate .learning-path-body .learning-path-certificate-circle{margin:0}
+.learning-path .container .learning-path-timeline-milestone .learning-path-timeline-milestone__header{border:0;padding:0}
+.learning-path .container .learning-path-timeline-milestone .learning-path-timeline-milestone__header-content{display:none}
+.learning-path .container .learning-path-timeline-milestone .learning-path-timeline-milestone__header-criterion{padding:0}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion{color:#656565;font-size:12px;font-weight:600;line-height:20px;margin:0;margin-top:8px;min-width:120px;padding:0;width:auto;z-index:0}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-criterion__value-container{display:inline;font-size:15px;font-weight:400;line-height:24px;position:absolute;right:92px;top:18px;margin:0;padding:0}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-criterion__value-container .icon-flag{display:none}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion .learning-path-criterion__value-container{display:inline;font-size:14px;font-weight:600;line-height:0}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion .learning-path-criterion__value-container .learning-path-criterion__value,.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion .learning-path-criterion__value-container .learning-path-criterion__slash,.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion .learning-path-criterion__value-container .learning-path-criterion__threshold{font-size:14px}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item--certificate-container{display:flex;flex-direction:row;justify-content:right;width:100%}
+.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body .medium-centered.columns{height:56px}
+.learning-path .container .learning-certificate .widget--learning-path-content_standard .learning-path-body .medium-centered.columns{height:24px}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item--certificate-container .learning-path-timeline-milestone__subtitle{color:#656565;font-size:12px;font-weight:600;display:inline;height:auto;margin-top:0;overflow:unset;padding-left:8px;text-transform:uppercase;white-space:nowrap}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion .icon-signpost{display:none}
+.learning-path .container .learning-path-criterion-container .learning-path-criterion .learning-path-criterion__label{display:none}
+.learning-path .container .learning-path_custom-layout.learning-pathways .learning-path-criterion-container .learning-path-criterion .learning-path-criterion__label{display:block;font-size:12px;font-weight:600;height:auto;line-height:20px;letter-spacing:1px;overflow:unset;white-space:nowrap}
+.learning-path .container .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle__asset{left:-58px;top:-48px}
+.learning-path .container .learning-path-timeline-milestone__header,.learning-path .container .learning-path-timeline-milestone-items{background:#fff;border-top:0}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header,.learning-path .container .learning-path_custom-layout .learning-path-header{background:#f2f2f2}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header,.learning-path .container .learning-path_custom-layout .learning-path-header{background:#f2f2f2;display:flex;justify-content:center}
+.learning-path .container .widget--learning-path-content_standard .learning-path-body .collapse,.learning-path .container .widget--learning-path-content_standard .learning-path-body .hr__accent{display:none}
+.learning-path .container .learning-path-page-header,.learning-path .container .learning-path-header{border-bottom:1px solid #d9d9d9}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header,.learning-path .container .learning-path_custom-layout .learning-path-header{border-bottom:1px solid #ccc}
+.learning-path .container .learning-path-timeline-milestone-item__asset-container .learning-path-timeline-milestone-item__horizontal-line{display:none}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__asset{display:none;height:155px;margin:0;padding:0;width:284px;margin-left:16px;margin-right:16px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__asset img{display:none;height:155px;width:268px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-course-name,.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-milestone-item__title{border-top:1px solid #ccc;font-size:21px;font-weight:700;line-height:32px;padding-bottom:16px;padding-top:24px;margin:0}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-milestone__badge{background-color:#d1f0dd;color:#7bad8d;font-weight:600;font-size:12px;line-height:20px;padding:2px 8px 2px 8px;position:absolute;right:0;margin-top:1px;letter-spacing:1px}
+.learning-path .container .learning-certificate .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-milestone__badge{background-color:#f6d5d5;color:#a82424}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone .learning-path-timeline-milestone__header,.learning-path .container .learning-certificate .learning-path-body .learning-path-progress-bar-item .learning-path-progress-bar-item__border{display:none}
+.learning-path .container .learning-certificate .learning-path-body .medium-centered.columns{display:flex;flex-direction:row;justify-content:center;width:100%;height:24px}
+.learning-path .container .learning-certificate .learning-path-body .learning-path-progress-bar-item{width:20%;height:24px !important;margin-left:-4%}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container{float:none;margin:0;margin-bottom:16px;order:2;width:100%}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container .medium-collapse:first-child{display:none}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__asset-container{margin-right:24px;order:1;padding:0;width:268px}
+.learning-path .container .learning-path_custom-layout .learning-path-milestone-item__alt-description{font-size:15px;font-weight:400;line-height:24px;margin-top:0}
+.learning-path .container .learning-path_custom-layout .learning-path-body{background:#f2f2f2;padding:1em 2em}
+.learning-path .container .learning-certificate .learning-path-body{padding:0}
+.learning-path .container .learning-certificate .learning-path-body .learning-path-progress-bar-item--certificate-container.top-nav-learning-certificate-container{margin-top:26px;position:absolute;width:auto}
+.learning-path .container .learning-path_custom-layout.learning-pathways .learning-path-body ul li{clear:none;margin:0 auto}
+.learning-path .container .learning-path_custom-layout .learning-path-body ul li{clear:none;margin:0 auto}
+.learning-path .container .learning-certificate .learning-path-body .medium-centered.columns ul{display:flex;flex-direction:row;justify-content:center;width:100%;height:24px;padding:0 12px 0 12px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent{background:#f2f2f2;display:flex;height:86px;position:relative;justify-content:center;padding:1em;width:100%}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item--certificate-container .learning-path-certificate-container__progress-item{display:flex;flex-direction:row;justify-content:flex-start;width:100%}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container{width:100%;z-index:0}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container{display:flex;height:60px;margin-left:0;padding:0;width:1280px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-timeline-milestone-item__vertical-line--certificate{display:none}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status__circle{display:none}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status{font-size:12px;font-weight:600;letter-spacing:1px;line-height:30px;margin:0}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status--earned{color:#4d4d4d}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status-dashboard-container{position:absolute;top:24px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status-dashboard-container .learning-path-certificate-status-dashboard-link{font-weight:700;color:#4d4d4d;font-size:15px;display:flex;text-transform:capitalize}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status-dashboard-container .learning-path-certificate-status-dashboard-link .Link-icon{padding:0;margin:6px 0 0 12px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-status-dashboard-container .icon-right{color:#001eff;padding-left:8px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-circle{background-color:unset;background-image:url("https://d36ai2hkxl16us.cloudfront.net/thoughtindustries/image/upload/a_exif,c_fill,w_100,h_100/v1/course-uploads/612cd12a-1c8b-4937-8762-a40dc3dc6958/3nqfpe2w0dri-award-rosette-disabled.png");background-size:60px 60px;border:0;margin:0;margin-left:-20px;margin-top:-13px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-circle.learning-path-certificate-circle--earned{background-image:url("https://d36ai2hkxl16us.cloudfront.net/thoughtindustries/image/upload/a_exif,c_fill,w_100,h_100/v1/course-uploads/612cd12a-1c8b-4937-8762-a40dc3dc6958/6a7w6sj53j2d-award-rosette.png")}
+.learning-path .container .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__vertical-line{background:#001eff;width:1px}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-items:not(first-child){padding:16px 0 0 0}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item{margin:0}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone--current .learning-path-timeline-milestone-item-circle{background-color:#001eff;color:#fff}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-item-circle{background-color:#fff;border:1px solid #001eff;box-shadow:none;color:#001eff;height:36px;left:-48px;line-height:36px;width:36px;display:flex;justify-content:center;flex-direction:column}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle__asset--right .learning-path-timeline-milestone-item-circle-count{color:#001eff}
+.learning-path .container .learning-pathways .learning-path-timeline-milestone-item-circle--completed.learning-path-timeline-milestone-item-circle{background-color:#22775e;border-color:#22775e;color:#fff}
+.learning-path .container .learning-pathways .learning-path-timeline-milestone-item--completed .learning-path-timeline-milestone-item-circle--completed.learning-path-timeline-milestone-item-circle{background-color:#22775e;border-color:#22775e;color:#fff}
+.learning-path .container .learning-pathways .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle .learning-path-timeline-milestone-item-circle-count{color:#001eff;display:flex;font-size:19px;font-weight:600;justify-content:center;line-height:24px}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone--completed.learning-path-timeline-milestone-item-circle .learning-path-timeline-milestone-item-circle-count{color:#fff}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--current{background-color:#001eff;border-color:#001eff;display:flex;justify-content:center;flex-direction:column}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--current .learning-path-timeline-milestone-item-circle-count{color:#fff}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--current .learning-path-timeline-milestone-count{color:#fff}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item .learning-path-progress-bar-item__border{top:70%;width:calc(100% - 58%)}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item .learning-path-progress-bar-item__index{background-color:#fff;border-color:#001eff;border:1px solid #001eff;color:#001eff;height:36px;line-height:34px;margin-top:10px;width:36px;box-shadow:none;font-size:19px;font-weight:600}
+.learning-path .container .learning-certificate .learning-path-progress-bar-item .learning-path-progress-bar-item__index{height:24px;line-height:24px;width:24px;font-size:13px;margin-top:0}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item--current .learning-path-progress-bar-item__index{background-color:#001eff;color:#fff}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item--completed .learning-path-progress-bar-item__index{background-color:#22775e;border-color:#22775e;color:#fff}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-count{display:none}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-count{display:block}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-count{display:none}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone--completed .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item-circle--completed{background-color:#22775e;border-color:#22775e}
+.learning-path .container .learning-certificate .learning-path-timeline .learning-path-timeline-milestone-circle-svg-tick-icon{display:none}
+.learning-path .container .learning-certificate .learning-path-timeline .learning-path-timeline-milestone-count{font-size:19px;font-weight:600;line-height:24px;margin:0 auto}
+.learning-path .container .learning-certificate .learning-path-timeline .learning-path-timeline-milestone.learning-path-timeline-milestone--completed .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-count{display:none}
+.learning-path .container .learning-certificate .learning-path-timeline .learning-path-timeline-milestone.learning-path-timeline-milestone--completed .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-circle-svg-tick-icon{display:flex}
+.learning-path .container .learning-pathways .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle-svg-tick-icon{display:none}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-circle-svg-tick-icon{border-radius:50%}
+.learning-path .container .learning-pathways .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-svg-tick-icon{border-radius:50%;display:flex}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-circle-svg-tick-icon svg,.learning-path .container .learning-pathways .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-svg-tick-icon svg{display:block;height:34px;margin:0 auto;width:24px}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle-svg-tick-icon{display:none}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-svg-tick-icon{box-shadow:none;height:20px;left:0;line-height:20px;width:20px;background-color:#22775e;border-radius:50%;position:absolute;top:50px;left:8px;border:unset;display:flex}
+.learning-path .container .learning-certificate .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item-circle--completed .learning-path-timeline-milestone-item-circle-svg-tick-icon svg{width:12px;height:20px;margin:0 auto}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-item__horizontal-line--certificate{display:none}
+.learning-path .container .widget--learning-path-content_standard{background:#f2f2f2;height:86px}
+.learning-path .container .learning-certificate .widget--learning-path-content_standard{height:130px;padding:16px}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header,.learning-path .container .learning-path_custom-layout .learning-path-header{background:#f2f2f2}
+.learning-path .container .widget--learning-path-content_standard .learning-path-body .collapse,.learning-path .container .widget--learning-path-content_standard .learning-path-body .hr__accent{display:none}
+.learning-path .container .learning-path-page-header,.learning-path .container .learning-path-header{border-bottom:1px solid #d9d9d9}
+.learning-path .container .learning-path_custom-layout .widget--milestones_standard{margin:0 auto;max-width:100%;padding-left:48px;padding-right:16px}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item{display:flex;flex-direction:column;padding-bottom:16px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container{float:none;margin:0;order:2;padding:0;width:100%}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content{display:flex;flex-direction:column;margin:0;width:100%}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .learning-path-milestone-item__info{display:none;margin-top:0}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .learning-path-milestone-item__description{-webkit-box-orient:vertical;-webkit-line-clamp:3;color:#4d4d4d;display:-webkit-box;font-size:15px;font-weight:400;line-height:24px;margin-top:0;overflow:hidden}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .btn--primary{margin-top:32px;text-align:left}
+.learning-path .container .learning-path-page-header .widget__title{color:#4d4d4d;font-size:28px;font-weight:bold;text-align:left}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .catalog-item,.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .btn--primary{background:0;border:0;bottom:0;color:#4d4d4d;font-size:15px;font-weight:700;line-height:24px;margin:0;padding:0;position:relative}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .btn--primary{display:flex}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .btn--primary .Link-icon{margin-left:12px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .catalog-item .icon-right,.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .btn--primary .icon-right{color:#001eff;margin-left:8px}
+.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body .small-block-grid-2{margin:0}
+.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body .medium-centered.columns{padding:0}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content{padding:0}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-item .learning-path-timeline-milestone-item__content-container--left .medium-collapse{margin:0}
+@media(min-width:425px){.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body{margin:0 auto;max-width:1280px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__asset-container{order:1}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container{float:none;margin:0;max-width:100%;order:2;padding:0}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content{margin:0;width:100%}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item{display:flex;flex-direction:column}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container{left:0}
+}
+@media(min-width:640px){.container,.course__container{max-width:100%}
+}
+@media(min-width:768px){.learning-path .container .learning-path_custom-layout .learning-path-page-header .widget__title{display:flex;margin:0;width:1280px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__asset{display:block}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header .widget__title{padding:32px 16px 32px 16px}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item--certificate-container .learning-path-certificate-container__progress-item{justify-content:flex-end}
+.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body{margin-left:42px;max-width:1280px}
+.learning-path .container .learning-certificate .widget--learning-path-content_standard .learning-path-body{margin:0 auto}
+.learning-path .container .learning-path_custom-layout .learning-path-progress-bar-item .learning-path-progress-bar-item__border{width:calc(100% - 192px)}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-course-name,.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-milestone-item__title{padding-bottom:16px;padding-top:16px}
+.learning-path .container .learning-path_custom-layout .widget--milestones_standard{margin:0 auto;padding-left:64px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__asset img{display:block}
+.learning-path .container .learning-path_custom-layout .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item{display:flex;flex-direction:row;justify-content:flex-start;width:100%}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container{max-width:60%}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content{height:155px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-milestone__badge{margin-top:1px;right:0}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container{padding-left:0;width:1280px}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion{display:block;right:0;top:0}
+.learning-path .container .learning-path-criterion-container .learning-path-criterion{display:block;margin-top:8px;right:140px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content .btn--primary{bottom:0;position:absolute}
+.learning-path .container .learning-certificate .widget--learning-path-content_standard{height:86px}
+.learning-path .container .learning-certificate .learning-path-body .learning-path-progress-bar-item{margin:11px 0 0 0;width:10%}
+.learning-path .container .learning-certificate .learning-path-body .learning-path-progress-bar-item--certificate-container.top-nav-learning-certificate-container{margin-top:-13px;position:relative}
+.learning-path .container .learning-certificate .learning-path-progress-bar-item .learning-path-progress-bar-item__index{height:36px;line-height:32px;width:36px;font-size:19px}
+.learning-path .container .learning-certificate .widget--learning-path-content_standard .learning-path-body .medium-centered.columns{height:56px}
+.learning-path .container .learning-certificate .learning-path-body .medium-centered.columns ul{width:100%;height:56px !important;padding:0}
+}
+@media(min-width:1024px){.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body{margin:0 auto;max-width:1280px}
+.learning-path .container .learning-path_custom-layout .learning-path-page-header .widget__title{padding:42px 0}
+.learning-path .container .learning-path_custom-layout .widget--milestones_standard{max-width:1280px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container{max-width:1280px;width:100%}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container{padding-left:0}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion{display:block;right:0;top:0}
+.learning-path .container .learning-path-criterion-container .learning-path-criterion{display:block;margin-top:8px;right:140px}
+}
+@media(min-width:1200px){.learning-path .container .learning-path_custom-layout .widget--learning-path-content_standard .learning-path-body{margin:0 auto;max-width:1280px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-timeline-milestone-item__content-container{max-width:1280px;width:100%}
+.learning-path .container .learning-path_custom-layout .widget--milestones_standard{max-width:1280px}
+.learning-path .container .learning-path-timeline .learning-path-timeline-milestone-items .learning-path-milestone__badge{margin-top:1px;right:0}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container{margin:0;padding-left:0}
+.learning-path .container .learning-pathways .learning-path-criterion-container .learning-path-criterion{display:block;right:0;top:0}
+.learning-path .container .learning-path-criterion-container .learning-path-criterion{display:block;margin-top:0;right:220px}
+.learning-path .container .learning-path_custom-layout .learning-path-certificate-container-parent .learning-path-certificate-container .learning-path-certificate-circle{margin-left:-8px}
+}
+@media(min-width:1400px){.learning-path .container .learning-path-criterion-container .learning-path-criterion{right:260px}
+}
+.article .container .widget--topic-article-content .article-header,.article .container .widget--topic-article-content .article-content,.article .container .widget--topic-article-content .article-sidebar .article-sidebar__rating,.article .container .widget--topic-article-content .article-sidebar .article-sidebar__custom-fields,.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article-sidebar__icon,.article .container .widget--topic-article-content .article-sidebar hr{display:none}
+.article .container .article_title_container{padding:42px 0;background:#f4f4f4}
+.article .container .article_title_container .article_title_value{margin:auto;max-width:1280px;color:#404040;font-size:32px;font-style:normal;font-weight:700;line-height:48px}
+.article .container .layout-panel{margin:auto;max-width:1280px;padding:0}
+.article .container .layout-panel .topic__container{padding:48px 0}
+.article .container .widget--topic-article-content .article-sidebar{display:flex;flex-direction:row;width:100%}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar{background-color:#fff;border:0;margin-bottom:0;margin-left:auto;padding:0;width:30%}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article_sidebar_title{color:#4d4d4d;font-size:12px;font-style:normal;font-weight:600;letter-spacing:1px;line-height:20px;margin-bottom:20px;text-transform:uppercase}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .btn{align-items:center;border-radius:5px;border:1px solid #4d4d4d;box-shadow:none;color:#4d4d4d;display:flex;flex-direction:row;font-size:19px;font-style:normal;font-weight:700;height:48px;justify-content:center;line-height:32px;margin:32px 0 0 0;padding:8px 24px !important;text-align:center;width:fit-content}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article_horizontal_line{background:#ccc;display:block;height:1px;margin:0}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .row .columns{width:100%}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article_document_details{margin-top:12px;margin-bottom:32px;-webkit-box-align:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;font-size:12px;line-height:20px}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article_document_details .document_details_item_container{display:flex;flex-direction:row}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article_document_details .document_details_item{display:flex;align-items:center;color:#000;font-size:12px;font-weight:400;line-height:20px;text-transform:capitalize}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .article_document_details .text_divider{margin:0 6px}
+.article .container .widget--topic-article-content .article_document_description{padding:0 16px;margin:32px 0;float:left;width:100%}
+.article .container .widget--topic-article-content .article_document_description .article_document_description_title{font-style:normal;font-weight:400;font-size:21px;line-height:32px;color:#4d4d4d;margin-bottom:16px}
+.article .container .widget--topic-article-content .article_document_description .article_document_description_value{font-style:normal;font-weight:400;font-size:15px;line-height:24px;color:#4d4d4d}
+@media(max-width:480px){.article .container .article_title_container{padding:10px 16px}
+.article .container .layout-panel .topic__container{padding:16px}
+.article .container .widget--topic-article-content .article-sidebar{flex-direction:column}
+.article .container .widget--topic-article-content .article-sidebar .text-center,.article .container .widget--topic-article-content .article-sidebar img{display:none}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar{margin-left:0;width:100%}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .row .columns{width:100%}
+}
+@media(min-width:768px) and (max-width:1024px){.article .container .article_title_container{padding:42px 16px}
+.article .container .layout-panel .topic__container{padding:16px}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar,.article .container .widget--topic-article-content .article-sidebar .text-center{width:50%}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar{padding-left:20px}
+.article .container .widget--topic-article-content .article-sidebar .panel--article-sidebar .row .columns{width:100%}
+}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar__content__container,.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .heading--primary{display:none}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content{width:100%}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content p{font-style:normal;font-weight:500;font-size:21px;line-height:40px;color:#000;margin-bottom:12px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content p strong,.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content p strong span{font-weight:700 !important;font-size:21px !important}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content div strong{font-style:normal;font-weight:400;font-size:19px;line-height:24px;color:#000;margin-bottom:12px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content div span{font-style:normal;font-weight:400;font-size:15px;line-height:24px;color:#000;margin-bottom:12px}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content .btn{display:flex;flex-direction:row;justify-content:center;align-items:center;padding:8px 24px !important;background:#ff5000 !important;border-radius:5px;width:fit-content}
+.course-group .container .home__content .course__detail__container .course__detail__content .row .column .tabs-content.tabs-content--meetings .event-sidebar--tabs .event-content .btn span{font-style:normal;font-weight:600;font-size:19px;line-height:32px;text-align:center;color:#fff;margin-bottom:0}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content.topic__content--meeting-info .row{display:flex;flex-direction:column}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content.topic__content--meeting-info .row .columns{width:100%}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content.topic__content--meeting-info .row .columns h2{display:none}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content.topic__content--meeting-info .row .columns div strong{color:#000;font-size:19px;font-weight:400;letter-spacing:0;line-height:32px;margin-bottom:12px;text-align:left}
+.course .course__container .learner__container .learner__content .layout-panel .topic__container .topic__content.topic__content--meeting-info .row .columns span{color:#000;font-size:15px;font-weight:400;letter-spacing:0;line-height:32px;margin-bottom:12px;text-align:left}
+.course .course__container .sidebar__container .h5,.course .course__container .sidebar__container .h4{text-align:center}
+.public-certificate .container{background-color:#fff;max-width:100%}
+.public-certificate .container .home__content{align-items:center;margin:auto;max-width:1280px;padding:48px 0 48px 0}
+.public-certificate .container .home__content .row .columns:nth-child(2){padding:0}
+.public-certificate .container .home__content .row .columns:nth-child(3){padding:0 16px 0 16px}
+.public-certificate .container .home__content .row .columns:nth-child(3) .text-gray{text-transform:uppercase;margin-bottom:24px}
+.public-certificate .container .home__content .row .columns:nth-child(3) .font-bold{font-weight:400;padding-bottom:24px;border-bottom:1px solid #ccc}
+.public-certificate .container .header .header__inner .top-bar{display:none}
+.public-certificate .container .home__content .shadow-sm,.public-certificate .container .home__content .rounded-sm{background-color:#fff;padding-top:0}
+.public-certificate .container .course_title{align-items:center;background-color:#f4f4f4;display:flex;justify-content:left}
+.public-certificate .container .course_title .course_title_value{color:#4d4d4d;font-size:32px;font-weight:700;height:auto;line-height:48px;padding:42px 0;width:100%}
+.public-certificate .container .header .header__inner .nav--top ul{align-items:center;display:flex}
+.public-certificate .container .header .header__inner .nav--top ul li:nth-of-type(2){display:none}
+.public-certificate .container .header .header__inner .nav--top ul li a{align-items:center;background:#fff;border-radius:15px;border:1px solid #404040;display:flex;flex-direction:column;height:28px;justify-content:space-between;padding:4px;width:146px}
+.public-certificate .container .header .header__inner .nav--top ul li a span{color:#404040;font-size:15px;font-weight:600;height:18px;line-height:18px;text-transform:none}
+@media(min-width:768px){.public-certificate .container .course_title .course_title_value{max-width:1280px;margin:auto}
+}
+@media only screen and (max-width:480px){.public-certificate .container .course_title{padding:0 16px 0 16px}
+.public-certificate .container .course_title,.public-certificate .container .course_title .course_title_value{height:auto}
+}
+@media(min-width:768px) and (max-width:1024px){.public-certificate .container .course_title{padding:0 16px}
+}
+@media(min-width:769px){.public-certificate .container .home__content .row .columns:nth-child(3){padding:0 24px 0 24px}
+}
